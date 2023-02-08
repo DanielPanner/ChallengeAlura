@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 90%;
+    min-height: 100vh;
+    background-image: url(img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+.logo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    bottom: 285px;
+    left: 595px;
+}
+
+.box1{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    bottom: 60px;
+    right: 390px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: transparent;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.box2{
+    position: relative;
+    width: 440px;
+    height: 300px;
+    bottom: 60px;
+    right: 370px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: transparent;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #000000; 
+}
+
+.cript{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 200px;
+    height: 47px;
+    top: 400px;
+    right: 375px;
+    background: #f6f8fa;
+    border-radius: 24px;
+    opacity: 0.3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 3px;
+    text-align: center;
+}
+
+.descri{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 200px;
+    height: 37px;
+    right: 160px;
+    top: 348px;
+    background: #f6f8fa;
+    border-radius: 24px;
+    opacity: 0.3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1px;
+    text-align: center;
+}
+
+.copy{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 120px;
+    height: 37px;
+    top: 295px;
+    left: 250px;
+    background: #f6f8fa;
+    border-radius: 24px;
+    opacity: 0.3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1px;
+}
+
+.poste{
+    position: relative;
+    height: 250px;
+    right: 250px;
+    top: 290px;
+    opacity: 0.5;
+    transform:rotate(-10grad)
+}
+
+.gif{
+    position:relative;
+    width: 280px;
+    top: 290px;
+    left: 800px;
+    opacity: 0.7;
+    transform: rotateX(-1grad);
+    transform: scaleX(-1);
+}
+
+.letras{
+    position: relative;
+    top: 480px;
+    right: 310px;
+    color: rgb(1, 139, 1);
+}
+
+@media (max-width: 450px){
+    .letras{
+        position: absolute;
+        width: 400px;
+        top: 890px;
+        left: 120px;
+        color: rgb(1, 139, 1);
+    }
+
+    .descri{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+        width: 190px;
+        height: 37px;
+        left: 45px;
+        top: 292px;
+        background: #f6f8fa;
+        border-radius: 18px;
+        opacity: 0.3;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Titan One';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 1px;
+        text-align: center;
+    }
+
+
+    .cript{
+        position: relative;
+        width: 165px;
+        height: 8px;
+        right: 122px;
+        top: 345px;
+        display: flex;
+        border-radius: 18px;
+
+        font-family: 'Titan One';
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 15px;
+        line-height: 1px;
+    }
+
+    body{
+        min-width: auto;
+        min-height: 100vh;
+        background-image: url(img/fundo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: auto;
+        justify-content: auto;
+        justify-content: auto;
+    }
+
+    .copy{
+        position:absolute;
+        width: 130px;
+        height: 1px;
+        left: 190px;
+        top: 830px;
+        border-radius: 18px;
+
+    }
+}
+
+@media (max-width: 450px) {
+
+    .logo{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        bottom: 315px;
+        left: 270px;
+    }
+
+    .box2{
+        position: relative;
+        width: 350px;
+        right: 120px;
+        height: 250px;
+        top: 45px;
+    }
+    .box1{
+        position: relative;
+        width: 350px;
+        right: 118px;
+        height: 250px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .poste{
+        position: relative;
+        height: 150px;
+        right: 70px;
+        top: 430px;
+        opacity: 0.5;
+        transform:rotate(-10grad)
+    }
+
+    .gif{
+        position:absolute;
+        width: 160px;
+        left: 70px;
+        top: 129px;
+        transform: rotateX(-5grad);
+        opacity: 5;
+    }
+}
+
+
+
